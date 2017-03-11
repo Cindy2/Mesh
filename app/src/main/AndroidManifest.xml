@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beesmart.blemesh">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name="com.beesmart.blemesh.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_beesmart_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="Default.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.beesmart.blemesh.dao.po.LocationInfoPO,
+                            com.beesmart.blemesh.dao.po.LocationAffiliationPO,
+                            com.beesmart.blemesh.dao.po.SceneAffiliationPO,
+                            com.beesmart.blemesh.dao.po.SceneDeviceOperationPO,
+                            com.beesmart.blemesh.dao.po.SceneGroupOperationPO,
+                            com.beesmart.blemesh.dao.po.SceneInfoPO,
+                            com.nxp.utils.po.DeviceAffiliationPO,
+                            com.nxp.utils.po.DeviceInfoPO,
+                            com.nxp.utils.po.DeviceOperationPO,
+                            com.nxp.utils.po.GroupInfoPO,
+                            com.nxp.utils.po.GroupOperationPO,
+                            com.nxp.utils.po.SwitchAffiliationPO"
+            />
+        <activity
+            android:name="com.beesmart.blemesh.activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.GuideActivity"
+            android:label="@string/welcome_use"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.beesmart.blemesh.activities.SetupMeshKeyActivity"
+            android:label="@string/new_mesh_network"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateHidden|adjustUnspecified" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.PreparedDeviceActivity"
+            android:label="@string/new_mesh_network"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.ProvisionDeviceActivity"
+            android:label="@string/title_activity_add_device"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.SyncDataActivity"
+            android:label="@string/connect_to_exist_network"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <service
+            android:name="com.nxp.ble.meshlib.MeshService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.beesmart.blemesh.services.BluetoothLeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.beesmart.blemesh.activities.SceneControlActivity"
+            android:label="@string/title_activity_scene_control"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.ReceiveDBActivity"
+            android:label="@string/receive_data"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.SendDBActivity"
+            android:label="@string/send_local_data"
+            android:theme="@style/horizontal_slide" />
+        <activity
+            android:name="com.beesmart.blemesh.activities.SelectSceneDevicesActivity"
+            android:label="@string/title_activity_select_scene_devices"
+            android:parentActivityName="com.beesmart.blemesh.activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.beesmart.blemesh.activities.MainActivity" />
+        </activity>
+        <activity android:name="com.beesmart.blemesh.activities.NewSceneActivity"
+            android:label="@string/new_scene"
+            >
+
+        </activity>
+        <activity android:name="com.beesmart.blemesh.activities.DeviceOTAActivity"
+                  android:label="@string/OTA"/>
+    </application>
+
+</manifest>

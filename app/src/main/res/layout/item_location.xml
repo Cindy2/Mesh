@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/item_check_flag"
+        android:layout_width="6dp"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/tv_item_location"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="Location"
+        android:gravity="center"
+        android:background="@drawable/circle_button_shape"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+</LinearLayout>

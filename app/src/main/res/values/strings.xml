@@ -1,0 +1,247 @@
+<resources>
+    <string name="app_name">BEESMART</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="welcome_use">Welcome</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="guide_tips_1">&#160;&#160;&#160;&#160;For the first time, you need to build a network for your bluetooth device, and then add the device to the network and control them using the App.
+</string>
+    <string name="guide_tips_2">&#160;&#160;&#160;&#160;If there is a bluetooth network, you can directly connect the existing bluetooth network, the connection will begin to synchronize data. you can start control device after the data sync completion。</string>
+    <string name="go_create_new_mesh">Yes, I want to create a bluetooth mesh network</string>
+    <string name="join_exits_mesh">Connect to the existing network</string>
+
+    <string name="join">Join</string>
+    <string name="add_new_devices">Add New Devices</string>
+    <string name="scene">Scene</string>
+    <string name="send_local_data">Send Local Data</string>
+    <string name="receive_data">Receive Data</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_input_key">Setup Mesh Key</string>
+    <string name="title_activity_add_device">Add Devices</string>
+    <string name="tips_getKey">&#160;&#160;&#160;&#160;To connect the existing bluetooth network, you need to enter the network key first. You can get the key from the network`s creator.</string>
+    <string name="space" />
+    <string name="setup_timeout">Setup Timeout</string>
+    <string name="setup_successful">setup Successful</string>
+    <string name="setup_failed">Setup Failed</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="setup_name">Setup Name</string>
+
+
+    <string name="fragment_device">Devices</string>
+    <string name="fragment_setup">Setup</string>
+    <string name="fragment_scene">Scenes</string>
+    <string name="fragment_setting">Setting</string>
+
+    <string name="label_device">Device</string>
+    <string name="lable_group">Group</string>
+    <string name="label_ALL">All</string>
+    <string name="label_sensor">Sensor</string>
+    <string name="label_switch">Switch</string>
+    <string name="label_cctw">CCTW</string>
+
+    <string name="action_join">Join</string>
+    <string name="action_leave">Leave</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_stop">Stop</string>
+
+    <string name="btn_group">Enter</string>
+    <string name="btn_group_warn">Do not know type</string>
+
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+
+    <string name="button_add">Add a new group</string>
+
+    <string name="ota_label_device_name">Device name:</string>
+    <string name="ota_label_device_address">Device address:</string>
+    <string name="ota_label_state">State:</string>
+    <string name="ota_load">Load Files</string>
+    <string name="ota_disconnect">Disconnect</string>
+
+    <string name="name">Name:</string>
+    <string name="status">Status:</string>
+    <string name="intensity">Intensity:</string>
+    <string name="color">Color:</string>
+
+    <string name="set_key">Setup key</string>
+    <string name="edit_key">123456</string>
+
+    <string name="add_dialog_text">Name:</string>
+    <string name="add_dialog_hint">Name</string>
+
+    <string name="provision_key">Enter key:</string>
+    <string name="provision_key_again">Enter key again:</string>
+    <string name="provision_key_hint">key</string>
+
+    <string name="provison_name">Name:</string>
+    <string name="provison_name_hint">unknown</string>
+
+    <string name="finish_nodeid">Node ID:</string>
+    <string name="finish_addr">Address:</string>
+    <string name="finish_name">Name:</string>
+    <string name="finish_devicetype">Type:</string>
+    <string name="finish_groups">Groups:</string>
+
+    <string name="setting_ota">Over the air</string>
+    <string name="setting_clear">Clear</string>
+
+
+    <string name="setup_key">Enter key</string>
+    <string name="keys_not_match">The two keys you typed do not match.</string>
+    <string name="keys_too_short">The key must contain 6~8 characters.</string>
+    <string name="keys_too_long">The key must contain 6~8 characters.</string>
+    <string name="keys_length_error">The key must contain 6~8 characters.</string>
+
+    <string name="select_switch">Select switch control</string>
+    <string name="switch_control_device">Control device</string>
+    <string name="switch_control_group">Control group</string>
+    <string name="no_available_device">No available device</string>
+    <string name="no_available_device_content">Exit, please setup associated devices first</string>
+    <string name="no_available_group">No available group</string>
+    <string name="no_available_group_content">Exit, please setup associated groups first</string>
+    <string name="setup_groups">Setup Groups</string>
+    <string name="max_groups_warn">Warning: select two groups at most</string>
+    <string name="new_group">Create a new group</string>
+    <string name="group_name_not_empty">Group name cannot be empty</string>
+    <string name="group_name_exits">Group name already exists</string>
+    <string name="group_full">Cannot create more group</string>
+    <string name="setup_finish">Complete</string>
+    <string name="unknown_device_type">unknown</string>
+    <string name="resetup">Resetup</string>
+    <string name="reconnection">Reconnection</string>
+    <string name="setup_process">Setup</string>
+    <string name="already_in_mesh">Already in mesh mode</string>
+    <string name="leave_mesh">Leave mesh and scan</string>
+
+    <string name="control_device">Device:</string>
+    <string name="control_group">Group:</string>
+
+    <string name="joined">Joined</string>
+    <string name="not_joined">Not joined</string>
+    <string name="join_successful">Join successful</string>
+    <string name="join_timeout">Join timeout</string>
+    <string name="join_failed">Join failed</string>
+    <string name="leave_successful">Exit successful</string>
+    <string name="leave_failed">Exit failed</string>
+
+    <string name="cannot_join">Cannot join</string>
+    <string name="cannot_join_content">Have not setup any devices or input setup key.</string>
+
+    <string name="start_join">Connecting</string>
+    <string name="start_leave">Exiting</string>
+
+    <string name="group_operations">Group operations</string>
+    <string name="device_operations">Device operations</string>
+    <string name="menu_rename">Rename</string>
+    <string name="menu_remove">Remove</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_delete_switch">Delete switch</string>
+
+    <string name="rename_group">Rename</string>
+    <string name="rename_device">Rename</string>
+    <string name="device_name_not_empty">Device name cannot be empty.</string>
+    <string name="delete_group">Delete</string>
+    <string name="delete_device">Delete</string>
+    <string name="remove_device">Remove</string>
+    <string name="delete_device_msg">It will be reset.\nAre you sure you want to delete it?</string>
+    <string name="remove_device_msg">It will be removed from this group.\nAre you sure you want to remove it?</string>
+    <string name="delete_group_msg">Please remove devices in group first!</string>
+    <string name="delete_switch">Delete switch</string>
+    <string name="delete_switch_msg">It will be reset.\nAre you sure you want to delete it?</string>
+    <string name="edit_groups">Edit groups</string>
+
+    <string name="delete_device_failed">Delete device failed.</string>
+    <string name="delete_device_success">Delete device successful.</string>
+    <string name="remove_device_failed">Remove device failed.</string>
+    <string name="remove_device_success">Remove device successful.</string>
+    <string name="delete_switch_failed">Delete switch failed.</string>
+    <string name="edit_group_failed">Edit group failed.</string>
+    <string name="edit_group_success">Edit group successful.</string>
+
+
+    <string name="choose_role">Create or join a network</string>
+    <string name="Create">Create</string>
+    <string name="Enter">Join</string>
+    <string name="ble_msg">Please enable bluetooth to continue using this app.</string>
+
+
+    <string name="OTA">OTA</string>
+    <string name="clear_database">Clear local database</string>
+    <string name="send_database">Send local database</string>
+    <string name="receive_database">Receive local database</string>
+    <string name="app_version">App Version</string>
+
+    <string name="leave_mesh_first">Please exit mesh network first.</string>
+    <string name="set_key_first">Error: please create the key first or add new devices.</string>
+
+    <string name="start_OTA">Ready to start OTA?</string>
+    <string name="start_OTA_timeout">Connecting OTA overtime.</string>
+    <string name="start_OTA_failed">Start OTA failed.</string>
+    <string name="waiting_device_reboot">Waiting device reboot.</string>
+
+    <string name="cannot_OTA">Cannot OTA</string>
+    <string name="cannot_Operation">Cannot Operation</string>
+
+    <string name="clear_database_msg">Ready to clear local data?\nPlease reset device factory settings either.</string>
+
+    <string name="join_first">Please join the mesh network first.</string>
+
+    <string name="sending_data">Sending data</string>
+    <string name="receiving_data">Receiving data</string>
+    <string name="device_prepare_tips">&#160;&#160;&#160;&#160;Make sure your bluetooth device is connected to the power supply and it`s in the factory mode.</string>
+    <string name="device_prepare_tips2">If the device is ready, the next step can be carried out.</string>
+    <string name="prepared_next">Next</string>
+    <string name="setup_key_tips">&#160;&#160;&#160;&#160;Set the key to the network, this key will be used to connect the bluetooth network when the phone is verified. other phones want to connect the network also need to enter this key, so please remember this key!</string>
+    <string name="title_activity_scene_control">Scene Control</string>
+    <string name="main_page">Main Control</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="add_new_Location">New a Location</string>
+    <string name="add_new_group">New a Group</string>
+    <string name="set_device_location">Setup device location</string>
+    <string name="plz_select_location">Please select a location！</string>
+    <string name="location_name_cantnot_be_empty">Location name can not be empty!</string>
+    <string name="this_location_name_is_exists">This location already exists!</string>
+    <string name="tips">Tips</string>
+    <string name="join_failed_message">Join failed! Please check the mesh network status!</string>
+    <string name="join_again">Join again</string>
+    <string name="do_you_want_to_create_ble_mesh">&#160;&#160;&#160;&#160;Do you want to create a new bluetooth mesh network?</string>
+    <string name="enter_location_name">Enter location name:</string>
+    <string name="enter_device_name">Enter device name:</string>
+    <string name="mesh_key_warning">Mesh key must be between 6 and 8 characters</string>
+    <string name="no_available_location">No available location</string>
+    <string name="connecting">Connecting</string>
+    <string name="connected">Connected</string>
+    <string name="title_activity_select_scene_devices">Select Devices</string>
+    <string name="new_scene">New Scenes</string>
+    <string name="save">Save</string>
+    <string name="rename_scene">Rename Scene</string>
+    <string name="enter_meshkey_here">Enter mesh key here</string>
+    <string name="tips_sync_data">&#160;&#160;&#160;&#160;When input completed, click the following button to start receive data from master`s  phone.</string>
+    <string name="clear_local_data">Clear local data</string>
+    <string name="connect_to_exist_network">Connect to exists network</string>
+    <string name="new_mesh_network">New bluetooth mesh network</string>
+    <string name="rename">Rename</string>
+    <string name="wait_response">Operation excuting, please wait!</string>
+    <string name="rename_location">Rename location</string>
+    <string name="delete_location">Delete location</string>
+    <string name="add_new_Location_successful">Add location successful</string>
+    <string name="scene_edit">Scene Edit</string>
+    <string name="yes">Yes</string>
+    <string name="mesh_key_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="exit_OTA">Exit OTA</string>
+    <string name="error">Operation failed</string>
+
+
+</resources>

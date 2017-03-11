@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.ProvisionDeviceActivity">
+
+    <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="100"
+        android:title="Scan"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="100"
+        android:title="Stop"
+        app:showAsAction="always" />
+
+</menu>

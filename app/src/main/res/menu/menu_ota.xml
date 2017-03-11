@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".activities.DeviceOTAActivity"
+    >
+
+    <item
+        android:id="@+id/ota_refresh"
+        android:checkable="false"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title=""/>
+
+    <item
+        android:id="@+id/ota_connect"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_connect"/>
+
+    <item
+        android:id="@+id/ota_disconnect"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/menu_disconnect"/>
+
+
+</menu>

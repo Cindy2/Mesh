@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_home"
+            android:checked="true"
+            android:title="@string/main_page" />
+        <!--android:icon="@drawable/ic_menu_camera"-->
+        <item
+            android:id="@+id/nav_scene"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/scene" />
+
+    </group>
+
+<item android:title="Advanced">
+        <menu>
+
+    <item
+        android:id="@+id/nav_add_devices"
+        android:icon="@mipmap/ic_add_new_devices"
+        android:title="@string/add_new_devices" />
+    <!--android:icon="@drawable/ic_menu_camera"-->
+
+    <item
+        android:id="@+id/nav_send_data"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/send_local_data" />
+    <item
+        android:id="@+id/nav_receive_data"
+        android:icon="@mipmap/ic_data_sync"
+        android:title="@string/receive_data" />
+
+    <!--<item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/settings" />-->
+    <item
+        android:id="@+id/nav_clear_data"
+        android:icon="@drawable/delate_all"
+        android:title="@string/clear_local_data" />
+
+    <item
+        android:id="@+id/nav_device_all_on"
+        android:icon="@drawable/ic_on_off"
+        android:title="All On" />
+    <item
+        android:id="@+id/nav_ota"
+        android:icon="@mipmap/ic_ota"
+        android:title="@string/OTA" />
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="@string/exit" />
+
+        </menu>
+</item>
+
+</menu>

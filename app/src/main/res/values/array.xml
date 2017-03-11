@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="device_operate_menu">
+        <item >Rename</item>
+        <item >Edit group</item>
+        <item >Change location</item>
+        <item >Delete</item>
+
+    </array>
+    <array name="device_operate_menu_in_location_all">
+        <item >Rename</item>
+        <item >Change location</item>
+        <item >Delete</item>
+
+    </array>
+
+
+    <array name="group_operate_menu">
+        <item >Rename</item>
+        <item >Edit group</item>
+        <item >Change location</item>
+        <item >Delete</item>
+
+    </array>
+    <array name="group_device_operate_menu">
+        <item >Rename</item>
+        <item >Edit group</item>
+        <item >Delete</item>
+
+    </array>
+
+    <array name="scene_operate_menu">
+        <item >Rename scene</item>
+        <item >Edit scene</item>
+        <item >Delete scene</item>
+
+    </array>
+    <array name="location_operation_menu">
+        <item >Rename</item>
+        <item >delete</item>
+        <item >Add</item>
+
+    </array>
+</resources>

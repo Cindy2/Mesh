@@ -1,0 +1,65 @@
+<!--<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="hk.tritech.beesmart.blemesh.fragments.MainControlFragment">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!--<android.support.design.widget.AppBarLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--app:layout_scrollFlags="scroll|enterAlways"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<android.support.design.widget.TabLayout-->
+                <!--android:id="@+id/tab_main_locations"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/colorPrimary"-->
+                <!--app:tabIndicatorHeight="4dp"-->
+                <!--app:tabTextAppearance="?android:attr/textAppearanceMedium"-->
+                <!--app:tabSelectedTextColor="@android:color/white"-->
+                <!--app:tabTextColor="@android:color/darker_gray">-->
+
+            <!--</android.support.design.widget.TabLayout>-->
+    <android.support.v7.widget.RecyclerView xmlns:tools="http://schemas.android.com/tools"
+        tools:listitem="@layout/item_location_top"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/rcv_location"
+        android:visibility="visible"
+        android:background="@color/colorPrimary"
+        android:layout_height="48dp">
+
+    </android.support.v7.widget.RecyclerView>
+        <!--</android.support.design.widget.AppBarLayout>-->
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--android:id="@+id/vp_location_devices"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+    <FrameLayout
+        android:id="@+id/fl_device_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+
+    <!--<android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+
+        android:src="@mipmap/ic_add_new_devices" />-->
+<!--</android.support.design.widget.CoordinatorLayout>-->

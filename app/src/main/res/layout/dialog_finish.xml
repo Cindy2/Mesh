@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:layout_margin="10dp">
+                  
+        <TextView 
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="设备地址"
+            android:textSize="18sp"/>
+        
+        <TextView 
+            android:id="@+id/textview_finish_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:layout_margin="10dp">
+        
+        <TextView 
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="设备名称"
+            android:textSize="18sp"/>
+
+        <TextView 
+            android:id="@+id/textview_finish_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:layout_margin="10dp">
+        
+        <TextView 
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="设备类型"
+            android:textSize="18sp"/>
+
+        <TextView 
+            android:id="@+id/textview_finish_devicetype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+        
+    </LinearLayout>    
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:layout_margin="10dp">
+        
+        <TextView 
+            android:id="@+id/textview_finish_groups_label"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="所在位置"
+            android:textSize="18sp"/>
+
+        <TextView 
+            android:id="@+id/textview_finish_groups"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"/>
+        
+    </LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" />
+    
+</LinearLayout>
